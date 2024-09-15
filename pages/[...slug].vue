@@ -1,7 +1,6 @@
 <script setup lang="ts">
-
 import { withoutTrailingSlash } from 'ufo'
-//import CommonForFolders from './commonForFolders.vue';
+import CommonForFolders from './commonForFolders.vue';
 
 definePageMeta({
   layout: 'docs',
@@ -35,12 +34,6 @@ useSeoMeta({
   ogTitle: `${page.value.title} - ${seo?.siteName}`,
   description: descriptionOrTitle.value,
   ogDescription: descriptionOrTitle.value
-})
-
-defineOgImage({
-  component: 'Docs',
-  title: page.value.title,
-  description: descriptionOrTitle.value
 })
 
 const headline = computed(() => findPageHeadline(page.value))
@@ -77,7 +70,7 @@ const getCrumbs = () => {
       <template v-if="page.body">
         <ContentRenderer :value="page" />
         <hr v-if="surround?.length">
-        <UDocsSurround :surround="surround" />
+        <UContentSurround :surround="surround" />
       </template>
       <template v-else>
         <CommonForFolders :path="route.path" />
@@ -85,7 +78,7 @@ const getCrumbs = () => {
     </UPageBody>
 
     <template v-if="page.toc !== false" #right>
-      <UDocsToc :title="toc?.title" :links="page.body?.toc?.links">
+      <UContentToc :title="toc?.title" :links="page.body?.toc?.links">
         <template v-if="toc?.bottom" #bottom>
           <div class="hidden lg:block space-y-6" :class="{ '!mt-6': page.body?.toc?.links?.length }">
             <UDivider v-if="page.body?.toc?.links?.length" type="dashed" />
@@ -93,7 +86,7 @@ const getCrumbs = () => {
             <UPageLinks :title="toc.bottom.title" :links="links" />
           </div>
         </template>
-      </UDocsToc>
+      </UContentToc>
     </template>
   </UPage>
 </template>

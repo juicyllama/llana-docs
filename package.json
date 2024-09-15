@@ -25,24 +25,21 @@
 	"dependencies": {
 		"@iconify-json/simple-icons": "^1.1.105",
 		"@nuxt/content": "latest",
-		"@nuxt/eslint-config": "latest",
+		"@nuxt/devtools": "^1.4.1",
+		"@nuxt/eslint-config": "^0.2.0",
+		"@nuxt/image": "^1.8.0",
 		"@nuxt/ui": "latest",
 		"@nuxt/ui-pro": "latest",
 		"@nuxtjs/color-mode": "latest",
 		"@nuxtjs/fontaine": "latest",
 		"@nuxtjs/google-fonts": "^3.2.0",
-		"nuxt-icon": "^0.6.10",
-		"nuxt-og-image": "^3.0.2",
-		"vite-plugin-require": "^1.2.14",
-		"vue": "latest"
-	},
-	"devDependencies": {
-		"@nuxt/devtools": "^1.4.1",
-		"@nuxt/eslint-config": "^0.2.0",
 		"@nuxtjs/tailwindcss": "^6.12.0",
 		"eslint": "^8.57.0",
 		"nuxt": "^3.12.1",
+		"nuxt-icon": "^0.6.10",
 		"typescript": "^5.4.5",
+		"vite-plugin-require": "^1.2.14",
+		"vue": "latest",
 		"vue-tsc": "^2.1.6"
 	},
 	"resolutions": {
