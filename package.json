@@ -42,6 +42,9 @@
 		"vue": "latest",
 		"vue-tsc": "^2.1.6"
 	},
+	"optionalDependencies": {
+		"@rollup/rollup-linux-x64-gnu": "4.9.5"
+	},
 	"resolutions": {
 		"vue": "3.3.13"
 	}
