@@ -1,0 +1,51 @@
+{
+	"name": "@juicyllama/llana-docs",
+	"type": "module",
+	"version": "0.0.1",
+	"description": "Llana website and documentation",
+	"author": {
+		"name": "JuicyLlama Studio",
+		"email": "studio@juicyllama.com",
+		"url": "https://juicyllama.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/juicyllama/llana-docs"
+	},
+	"bugs": "https://github.com/juicyllama/llana-docs",
+	"readmeFilename": "README.md",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"format": "prettier --write --ignore-path .gitignore \"**/*.{js,vue,json,md}\""
+	},
+	"dependencies": {
+		"@iconify-json/simple-icons": "^1.1.105",
+		"@nuxt/content": "latest",
+		"@nuxt/eslint-config": "latest",
+		"@nuxt/ui": "latest",
+		"@nuxt/ui-pro": "latest",
+		"@nuxtjs/color-mode": "latest",
+		"@nuxtjs/fontaine": "latest",
+		"@nuxtjs/google-fonts": "^3.2.0",
+		"nuxt-icon": "^0.6.10",
+		"nuxt-og-image": "^3.0.2",
+		"vite-plugin-require": "^1.2.14",
+		"vue": "latest"
+	},
+	"devDependencies": {
+		"@nuxt/devtools": "^1.4.1",
+		"@nuxt/eslint-config": "^0.2.0",
+		"@nuxtjs/tailwindcss": "^6.12.0",
+		"eslint": "^8.57.0",
+		"nuxt": "^3.12.1",
+		"typescript": "^5.4.5",
+		"vue-tsc": "^2.1.6"
+	},
+	"resolutions": {
+		"vue": "3.3.13"
+	}
+}

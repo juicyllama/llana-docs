@@ -1,0 +1,102 @@
+:root, .dark:root {
+  --primary-color: #f3c614;
+  --card-backgroun-color: #212121;
+  --color-primary-DEFAULT: #f3c614;
+  --color-primary-hover: #e0b10e;
+  --ui-background: #111111;
+  --tw-bg-opacity: 0;
+  --font: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--ui-background);
+  font-family: var(--font);
+  font-style: normal;
+  color: rgb(var(--ui-foreground) / var(--tw-text-opacity))
+}
+
+p a {
+  color: var(--color-primary-DEFAULT);
+}
+
+p a:hover {
+  color: var(--color-primary-hover);
+}
+
+.app--main-menu a:hover {
+  color: var(--color-primary-hover);
+}
+
+.text-primary {
+  color: var(--color-primary-DEFAULT);
+}
+
+.button-primary {
+  font-size: 1rem;
+  background-color: var(--color-primary-DEFAULT);
+  color: black;
+  cursor: pointer;
+  padding: 0.6rem 1rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border-color: var(--color-primary-DEFAULT);
+  border-style: solid;
+  border-width: 2px;
+}
+
+.button-primary:hover {
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+}
+
+.button-secondary {
+  font-size: 1rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 0.6rem 1rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.button-secondary:hover {
+  background-color: oldlace;
+}
+
+@media (min-width: 640px) {
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.card {
+  border-radius: 0.5rem;
+  background-color: var(--card-backgound-color);
+  border: var(--card-backgound-border)
+}
+
+.card:hover {
+  background-color: var(--card-backgound-color-hover);
+}
+
+button[aria-label="Color Mode"] {
+	display: none !important;
+	visibility: hidden !important;
+}
+.app-content-alert-component.alert-info a {
+	color: rgb(29 78 216 / var(--tw-text-opacity));
+	text-decoration: underline;
+}
+.app-content-alert-component.alert-warning a{
+	color: rgb(194 65 12 / var(--tw-text-opacity));
+	text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
