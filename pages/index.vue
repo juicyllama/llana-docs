@@ -59,10 +59,10 @@ useHead({
         <div class="m-4 grid grid-cols-5 md:grid-cols-8 lg:grid-cols-10 gap-4 sm:gap-5 lg:gap-8">
         <template v-for="link in datasources" :key="link">
           <NuxtLink v-if="link.url" :href="link.url" target="_blank" class="block lg:hover:scale-110 transition">
-            <img :src="`https://juicyllama.com/assets/images/apps/${link.key}.png`" :alt="link.key" loading="lazy" class="rounded-xl">
+            <img :src="`/assets/images/datasources/${link.key}.png`" :alt="link.key" loading="lazy" class="rounded-xl">
           </NuxtLink>
           <div v-else class="block lg:hover:scale-110 transition">
-            <img :src="`https://juicyllama.com/assets/images/apps/${link.key}.png`" :alt="link.key" loading="lazy" class="rounded-xl">
+            <img :src="`/assets/images/datasources/${link.key}.png`" :alt="link.key" loading="lazy" class="rounded-xl">
           </div>
         </template>
       </div>
