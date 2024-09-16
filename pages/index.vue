@@ -27,7 +27,7 @@ useHead({
               <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 justify-center">
                 <a type="button"
                   class="button-secondary"
-                  href="install"
+                  href="/install"
                   >
                   <Icon name="ph:book-duotone" class="flex-shrink-0 h-6 w-6" /> Documentation
                 </a>
