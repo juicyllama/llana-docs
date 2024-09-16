@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { NuxtLink } from '#build/components';
 import datasources from '~/assets/json/datasources';
 
 useHead({
