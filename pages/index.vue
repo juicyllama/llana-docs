@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { NuxtLink } from '#build/components';
 import datasources from '~/assets/json/datasources';
 
 useHead({
@@ -25,12 +26,12 @@ useHead({
               <p class="mt-6 text-lg tracking-tight"> 
                 Llana is a no-code API wrapper that exposes a REST API for any database within minutes. Stop wasting time building endpoints, just connect your database and start playing. Open source, free to use, and no vendor lock-in.</p>
               <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 justify-center">
-                <a type="button"
+                <NuxtLink type="button"
                   class="button-secondary"
-                  href="/install"
+                  to="/install"
                   >
                   <Icon name="ph:book-duotone" class="flex-shrink-0 h-6 w-6" /> Documentation
-                </a>
+                </NuxtLink>
                 
                 <a type="button"
                   class="button-primary"
