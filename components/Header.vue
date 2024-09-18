@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { NavItem } from '@nuxt/content/dist/runtime/types'
+import type { NavItem } from '@nuxt/content'
 
-const navigation = inject<NavItem[]>('navigation', [])
+const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 
 const { header } = useAppConfig()
 </script>
@@ -31,7 +31,7 @@ const { header } = useAppConfig()
     </template>
 
     <template #panel>
-      <UNavigationTree default-open :multiple="false" :links="mapContentNavigation(navigation)" />
+      <UNavigationTree default-open :multiple="false" :links="mapContentNavigation(navigation)" class="bg-black h-lvh" />
     </template>
   </UHeader>
 </template>

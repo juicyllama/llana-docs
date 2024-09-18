@@ -6,4 +6,7 @@ export default [{
 },{
     key: DataSource.POSTGRES.toLowerCase(),
     url: "https://www.postgresql.org/",
+},{
+    key: DataSource.MONGODB.toLowerCase(),
+    url: "https://www.mongodb.com/",
 }]
