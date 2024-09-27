@@ -23,8 +23,21 @@ useHead({
               </h1>
 
               <p class="mt-6 text-lg tracking-tight"> 
-                Llana is a no-code API wrapper that exposes a REST API for any database within minutes. Stop wasting time building endpoints, just connect your database and start playing. Open source, free to use, and no vendor lock-in.</p>
-              <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 justify-center">
+                Llana is a no-code API wrapper that exposes a REST API for any database within minutes. Stop wasting time building backend application, just connect your database, configure your access roles and enjoy.
+              </p>
+              
+              <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div> <Icon name="ph:folder-simple-lock-duotone" class="flex-shrink-0 h-6 w-6 mr-2"  /> Roles & Security </div>
+                <div> <Icon name="ph:folder-simple-lock-duotone" class="flex-shrink-0 h-6 w-6 mr-2" /> API Caching </div>
+                <div> <Icon name="ph:file-code-duotone" class="flex-shrink-0 h-6 w-6 mr-2" /> OpenAPI 3.1 </div>
+                <div> <Icon name="ph:file-text-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />API Documentation</div>
+                <div> <Icon name="ph:shipping-container-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />Docker</div>
+                <div> <Icon name="ph:lock-key-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />Encryption</div>
+              </div>
+
+            
+              
+                <div class="mt-12 flex flex-wrap gap-x-6 gap-y-3 justify-center">
                 <NuxtLink type="button"
                   class="button-secondary"
                   to="/install"
@@ -56,7 +69,7 @@ useHead({
   
 			
          
-        <div class="m-4 grid grid-cols-5 md:grid-cols-8 lg:grid-cols-10 gap-4 sm:gap-5 lg:gap-8">
+        <div class="mt-12 m-4 grid grid-cols-5 md:grid-cols-8 lg:grid-cols-10 gap-4 sm:gap-5 lg:gap-8">
         <template v-for="link in datasources" :key="link">
           <NuxtLink v-if="link.url" :href="link.url" target="_blank" class="block lg:hover:scale-110 transition">
             <img :src="`/assets/images/datasources/${link.key}.png`" :alt="link.key" loading="lazy" class="rounded-xl">
