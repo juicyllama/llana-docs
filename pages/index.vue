@@ -23,7 +23,7 @@ useHead({
               </h1>
 
               <p class="mt-6 text-lg tracking-tight"> 
-                Llana is a no-code API wrapper that exposes a REST API for any database within minutes. Stop wasting time building backend application, just connect your database, configure your access roles and enjoy.
+                Llana is a no-code API wrapper that exposes a REST API for any database within minutes. Stop wasting time building backend applications, just connect your database, configure your access roles and enjoy.
               </p>
               
               <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -53,22 +53,14 @@ useHead({
                   <Icon name="ph:github-logo-duotone" class="flex-shrink-0 h-6 w-6" /> Github
                 </a>
                 
-              </div>
-                    
+              </div>     
             </div>
-			
-
+		
           <div>
-            
             <img src="/assets/images/postman.png" alt="Llana Postman Example" />
-
           </div>
-
-
         </div>
-  
-			
-         
+
         <div class="mt-12 m-4 grid grid-cols-5 md:grid-cols-8 lg:grid-cols-10 gap-4 sm:gap-5 lg:gap-8">
         <template v-for="link in datasources" :key="link">
           <NuxtLink v-if="link.url" :href="link.url" target="_blank" class="block lg:hover:scale-110 transition">
