@@ -32,7 +32,7 @@ useHead({
                 <div> <Icon name="ph:file-code-duotone" class="flex-shrink-0 h-6 w-6 mr-2" /> OpenAPI 3.1 </div>
                 <div> <Icon name="ph:file-text-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />API Documentation</div>
                 <div> <Icon name="ph:shipping-container-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />Docker</div>
-                <div> <Icon name="ph:lock-key-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />Encryption</div>
+                <div> <Icon name="ph:arrows-left-right-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />WebSockets</div>
               </div>
 
             
