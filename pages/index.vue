@@ -26,13 +26,16 @@ useHead({
                 Llana is a no-code API wrapper that exposes a REST API for any database within minutes. Stop wasting time building backend applications, just connect your database, configure your access roles and enjoy.
               </p>
               
-              <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div> <Icon name="ph:folder-simple-lock-duotone" class="flex-shrink-0 h-6 w-6 mr-2"  /> Roles & Security </div>
-                <div> <Icon name="ph:folder-simple-lock-duotone" class="flex-shrink-0 h-6 w-6 mr-2" /> API Caching </div>
-                <div> <Icon name="ph:file-code-duotone" class="flex-shrink-0 h-6 w-6 mr-2" /> OpenAPI 3.1 </div>
-                <div> <Icon name="ph:file-text-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />API Documentation</div>
-                <div> <Icon name="ph:shipping-container-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />Docker</div>
-                <div> <Icon name="ph:arrows-left-right-duotone" class="flex-shrink-0 h-6 w-6 mr-2" />WebSockets</div>
+              <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+                <div> <Icon name="ph:folder-simple-lock-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]"  /> Roles & Security </div>
+                <div> <Icon name="ph:memory-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]" /> Schema Caching </div>
+                <div> <Icon name="ph:file-code-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]" /> OpenAPI 3.1 </div>
+                <div> <Icon name="ph:file-text-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]" />API Documentation</div>
+                <div> <Icon name="ph:shipping-container-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]" />Docker</div>
+                <div> <Icon name="ph:arrows-left-right-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]" />WebSockets</div>
+                <div> <Icon name="ph:webhooks-logo-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]" />Webhooks</div>
+                <div> <Icon name="ph:asterisk-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]" />Encryption</div>
+                <div> <Icon name="ph:lock-key-duotone" class="flex-shrink-0 h-6 w-6 mr-2 align-[-5px]" />Authentication</div>
               </div>
 
             
@@ -42,7 +45,7 @@ useHead({
                   class="button-secondary"
                   to="/install"
                   >
-                  <Icon name="ph:book-duotone" class="flex-shrink-0 h-6 w-6" /> Documentation
+                  <Icon name="ph:book-duotone" class="flex-shrink-0 h-6 w-6 align-[-5px]" /> Documentation
                 </NuxtLink>
                 
                 <a type="button"
@@ -50,7 +53,7 @@ useHead({
                   href="https://github.com/juicyllama/llana"
                   target="_blank"
                   >
-                  <Icon name="ph:github-logo-duotone" class="flex-shrink-0 h-6 w-6" /> Github
+                  <Icon name="ph:github-logo-duotone" class="flex-shrink-0 h-6 w-6 align-[-5px]" /> Github
                 </a>
                 
               </div>     
