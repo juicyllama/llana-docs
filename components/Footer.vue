@@ -6,7 +6,7 @@ const { footer } = useAppConfig()
 <template>
   <UFooter>
     <template #left>
-      Llana v.{{footer?.PACKAGE_VERSION}} {{ footer?.credits }}
+      <a href="https://juicyllama.com" class="text-primary">JuicyLlama</a> v.{{footer?.PACKAGE_VERSION}} {{ footer?.credits }}
     </template>
 
     <template #right>
