@@ -1,5 +1,6 @@
 export enum DataSource {
     MYSQL = 'MySQL',
     POSTGRES = 'Postgres',
-    MONGODB = 'MongoDB'
+    MONGODB = 'MongoDB',
+    MSSQL = 'MSSQL',
 }

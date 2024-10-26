@@ -9,4 +9,7 @@ export default [{
 },{
     key: DataSource.MONGODB.toLowerCase(),
     url: "https://www.mongodb.com/",
+},{
+    key: DataSource.MSSQL.toLowerCase(),
+    url: "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
 }]
