@@ -1,15 +1,18 @@
 import { DataSource } from "../types/stack";
 
 export default [{
-    key: DataSource.MYSQL.toLowerCase(),
-    url: "https://www.mysql.com/",
-},{
-    key: DataSource.POSTGRES.toLowerCase(),
-    url: "https://www.postgresql.org/",
+    key: DataSource.AIRTABLE.toLowerCase(),
+    url: "/data-sources/airtable",
 },{
     key: DataSource.MONGODB.toLowerCase(),
-    url: "https://www.mongodb.com/",
+    url: "/data-sources/mongodb",
 },{
     key: DataSource.MSSQL.toLowerCase(),
-    url: "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+    url: "/data-sources/mssql",
+},{
+    key: DataSource.MYSQL.toLowerCase(),
+    url: "/data-sources/mysql",
+},{
+    key: DataSource.POSTGRES.toLowerCase(),
+    url: "/data-sources/postgres",
 }]
